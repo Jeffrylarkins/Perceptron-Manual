@@ -6,8 +6,7 @@ from matplotlib.colors import ListedColormap
 import os
 
 plt.style.use("fivethirtyeight")
-    """it is used to sepeate the dependent and independent variables
-    """
+  
 def prepare_data(df):
     """it is used to sepeate the dependent and independent variables
 
