@@ -6,8 +6,17 @@ from matplotlib.colors import ListedColormap
 import os
 
 plt.style.use("fivethirtyeight")
-
+    """it is used to sepeate the dependent and independent variables
+    """
 def prepare_data(df):
+    """it is used to sepeate the dependent and independent variables
+
+    Args:
+        df (pd.DataFame): _description_
+
+    Returns:
+        _type_: _description_
+    """
     X = df.drop("y", axis = 1)
     y = df["y"]
     return X, y
